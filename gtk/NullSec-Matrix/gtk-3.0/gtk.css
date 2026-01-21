@@ -1,0 +1,71 @@
+/* NullSec Matrix - Classic Green Terminal Style */
+@define-color theme_bg_color #000000;
+@define-color theme_fg_color #00ff41;
+@define-color theme_base_color #000a00;
+@define-color theme_selected_bg_color #00ff41;
+@define-color theme_selected_fg_color #000000;
+@define-color accent_color #00ff41;
+@define-color dim_color #006618;
+
+* {
+    -gtk-icon-style: symbolic;
+    font-family: "DejaVu Sans Mono", monospace;
+}
+
+window, .background {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+headerbar {
+    background: @theme_bg_color;
+    border-bottom: 1px solid @dim_color;
+}
+
+button {
+    background: transparent;
+    border: 1px solid @dim_color;
+    color: @theme_fg_color;
+}
+
+button:hover {
+    background: @dim_color;
+    border-color: @accent_color;
+}
+
+entry, textview {
+    background-color: #000500;
+    border: 1px solid @dim_color;
+    color: @theme_fg_color;
+    caret-color: @accent_color;
+}
+
+entry:focus {
+    border-color: @accent_color;
+}
+
+.sidebar {
+    background-color: #000500;
+}
+
+scrollbar slider {
+    background-color: @dim_color;
+}
+
+selection {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+menu, popover {
+    background-color: #000a00;
+    border: 1px solid @dim_color;
+}
+
+progressbar progress {
+    background-color: @accent_color;
+}
+
+notebook tab:checked {
+    border-bottom: 2px solid @accent_color;
+}

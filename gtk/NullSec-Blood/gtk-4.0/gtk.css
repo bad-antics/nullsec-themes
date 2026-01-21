@@ -1,0 +1,68 @@
+/* NullSec Blood - Dark Red Aggressive Theme */
+@define-color theme_bg_color #0a0506;
+@define-color theme_fg_color #e0e0e0;
+@define-color theme_base_color #100808;
+@define-color theme_selected_bg_color #8b0000;
+@define-color theme_selected_fg_color #ffffff;
+@define-color accent_color #ff1744;
+@define-color blood_red #8b0000;
+@define-color crimson #dc143c;
+
+* {
+    border-radius: 4px;
+}
+
+window, .background {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+headerbar {
+    background: linear-gradient(to bottom, #1a0a0a, #0a0506);
+    border-bottom: 1px solid @blood_red;
+}
+
+button {
+    background: linear-gradient(to bottom, #1a0808, #0f0505);
+    border: 1px solid @blood_red;
+    color: @theme_fg_color;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #2a1010, #1a0808);
+    border-color: @accent_color;
+}
+
+entry, textview {
+    background-color: #080404;
+    border: 1px solid #4a0000;
+    color: @theme_fg_color;
+}
+
+entry:focus {
+    border-color: @accent_color;
+    box-shadow: 0 0 4px rgba(255, 23, 68, 0.3);
+}
+
+.sidebar {
+    background-color: #0a0405;
+    border-right: 1px solid #2a0000;
+}
+
+scrollbar slider {
+    background-color: @blood_red;
+}
+
+selection {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+menu, popover {
+    background-color: #100808;
+    border: 1px solid @blood_red;
+}
+
+progressbar progress {
+    background: linear-gradient(to right, @blood_red, @crimson);
+}

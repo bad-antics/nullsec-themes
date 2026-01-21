@@ -1,0 +1,32 @@
+# NullSec Frost - Cool Blue Theme
+[colors.primary]
+background = "#0a0e14"
+foreground = "#d4e5f7"
+
+[colors.cursor]
+text = "#0a0e14"
+cursor = "#64b5f6"
+
+[colors.selection]
+text = "#ffffff"
+background = "#2196f3"
+
+[colors.normal]
+black   = "#0a0e14"
+red     = "#f44336"
+green   = "#4caf50"
+yellow  = "#ffeb3b"
+blue    = "#2196f3"
+magenta = "#9c27b0"
+cyan    = "#00bcd4"
+white   = "#d4e5f7"
+
+[colors.bright]
+black   = "#121820"
+red     = "#ef5350"
+green   = "#66bb6a"
+yellow  = "#fff176"
+blue    = "#64b5f6"
+magenta = "#ba68c8"
+cyan    = "#4dd0e1"
+white   = "#ffffff"

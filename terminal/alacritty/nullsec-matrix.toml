@@ -1,0 +1,32 @@
+# NullSec Matrix - Classic Green Terminal
+[colors.primary]
+background = "#000000"
+foreground = "#00ff41"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#00ff41"
+
+[colors.selection]
+text = "#000000"
+background = "#00ff41"
+
+[colors.normal]
+black   = "#000000"
+red     = "#00cc33"
+green   = "#00ff41"
+yellow  = "#00dd38"
+blue    = "#009926"
+magenta = "#00bb30"
+cyan    = "#00ee3c"
+white   = "#00ff41"
+
+[colors.bright]
+black   = "#003310"
+red     = "#33ff66"
+green   = "#55ff77"
+yellow  = "#44ff55"
+blue    = "#22cc44"
+magenta = "#44dd55"
+cyan    = "#55ff88"
+white   = "#88ffaa"

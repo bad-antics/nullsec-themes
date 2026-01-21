@@ -1,0 +1,95 @@
+/* NullSec Neon - Vibrant Neon Theme */
+@define-color theme_bg_color #0a0a12;
+@define-color theme_fg_color #f0f0f0;
+@define-color theme_base_color #0d0d18;
+@define-color theme_selected_bg_color #ff00ff;
+@define-color theme_selected_fg_color #ffffff;
+@define-color accent_color #00ffff;
+@define-color warning_color #ffff00;
+@define-color error_color #ff0055;
+@define-color success_color #00ff88;
+
+* {
+    -gtk-icon-style: symbolic;
+    outline-color: alpha(@accent_color, 0.5);
+    border-radius: 6px;
+}
+
+window, .background {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+headerbar {
+    background: linear-gradient(to bottom, #1a1a28, #0d0d18);
+    border-bottom: 1px solid @accent_color;
+    box-shadow: 0 2px 8px rgba(0, 255, 255, 0.2);
+}
+
+button {
+    background: linear-gradient(to bottom, #1a1a28, #12121c);
+    border: 1px solid #ff00ff50;
+    padding: 8px 16px;
+    color: @theme_fg_color;
+    transition: all 200ms ease;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #2a2a3a, #1a1a28);
+    border-color: @accent_color;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+entry, textview {
+    background-color: #0a0a10;
+    border: 1px solid #ff00ff40;
+    padding: 8px;
+    color: @theme_fg_color;
+}
+
+entry:focus, textview:focus {
+    border-color: @accent_color;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+.sidebar, .sidebar-row {
+    background-color: #08080c;
+    border-right: 1px solid #ff00ff30;
+}
+
+scrollbar slider {
+    background-color: @accent_color;
+    min-width: 8px;
+    border-radius: 4px;
+}
+
+selection {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+tooltip {
+    background-color: #0a0a12;
+    border: 1px solid @accent_color;
+    color: @theme_fg_color;
+}
+
+menu, popover {
+    background-color: #0d0d18;
+    border: 1px solid #ff00ff50;
+    box-shadow: 0 4px 16px rgba(255, 0, 255, 0.2);
+}
+
+progressbar progress {
+    background: linear-gradient(to right, @accent_color, #ff00ff);
+    border-radius: 4px;
+}
+
+switch:checked slider {
+    background-color: @success_color;
+}
+
+notebook tab:checked {
+    background-color: #1a1a28;
+    border-bottom: 2px solid @accent_color;
+}

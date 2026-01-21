@@ -1,0 +1,33 @@
+# NullSec Alacritty Theme
+
+[colors.primary]
+background = '#0a0a0f'
+foreground = '#e0e0e0'
+
+[colors.cursor]
+text = '#0a0a0f'
+cursor = '#00ff41'
+
+[colors.selection]
+text = '#0a0a0f'
+background = '#00ff41'
+
+[colors.normal]
+black   = '#0a0a0f'
+red     = '#ff3333'
+green   = '#00ff41'
+yellow  = '#ffcc00'
+blue    = '#00aaff'
+magenta = '#bd00ff'
+cyan    = '#00ffcc'
+white   = '#e0e0e0'
+
+[colors.bright]
+black   = '#333333'
+red     = '#ff6666'
+green   = '#66ff99'
+yellow  = '#ffdd66'
+blue    = '#66ccff'
+magenta = '#dd66ff'
+cyan    = '#66ffdd'
+white   = '#ffffff'

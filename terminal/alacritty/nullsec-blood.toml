@@ -1,0 +1,32 @@
+# NullSec Blood - Dark Red Theme
+[colors.primary]
+background = "#0a0506"
+foreground = "#e0e0e0"
+
+[colors.cursor]
+text = "#0a0506"
+cursor = "#ff1744"
+
+[colors.selection]
+text = "#ffffff"
+background = "#8b0000"
+
+[colors.normal]
+black   = "#0a0506"
+red     = "#ff1744"
+green   = "#ff5252"
+yellow  = "#ff8a80"
+blue    = "#dc143c"
+magenta = "#c62828"
+cyan    = "#ef5350"
+white   = "#e0e0e0"
+
+[colors.bright]
+black   = "#1a0a0a"
+red     = "#ff4569"
+green   = "#ff7373"
+yellow  = "#ffab91"
+blue    = "#e91e63"
+magenta = "#e53935"
+cyan    = "#ef7373"
+white   = "#ffffff"

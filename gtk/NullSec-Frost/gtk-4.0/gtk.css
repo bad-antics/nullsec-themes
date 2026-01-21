@@ -1,0 +1,68 @@
+/* NullSec Frost - Cool Blue Winter Theme */
+@define-color theme_bg_color #0a0e14;
+@define-color theme_fg_color #d4e5f7;
+@define-color theme_base_color #0d1218;
+@define-color theme_selected_bg_color #2196f3;
+@define-color theme_selected_fg_color #ffffff;
+@define-color accent_color #64b5f6;
+@define-color ice_blue #00bcd4;
+@define-color frost #e3f2fd;
+
+* {
+    border-radius: 8px;
+}
+
+window, .background {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+headerbar {
+    background: linear-gradient(to bottom, #121820, #0a0e14);
+    border-bottom: 1px solid rgba(100, 181, 246, 0.3);
+}
+
+button {
+    background: linear-gradient(to bottom, #141a22, #0d1218);
+    border: 1px solid rgba(100, 181, 246, 0.2);
+    color: @theme_fg_color;
+    transition: all 150ms ease;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #1a2530, #141a22);
+    border-color: @accent_color;
+}
+
+entry, textview {
+    background-color: #080c10;
+    border: 1px solid rgba(100, 181, 246, 0.2);
+    color: @theme_fg_color;
+}
+
+entry:focus {
+    border-color: @accent_color;
+}
+
+.sidebar {
+    background-color: #080b10;
+}
+
+scrollbar slider {
+    background-color: @accent_color;
+    opacity: 0.6;
+}
+
+selection {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+menu, popover {
+    background-color: #0d1218;
+    border: 1px solid rgba(100, 181, 246, 0.2);
+}
+
+progressbar progress {
+    background: linear-gradient(to right, @accent_color, @ice_blue);
+}
