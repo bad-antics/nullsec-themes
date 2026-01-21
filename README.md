@@ -196,3 +196,6 @@ nullsec-themes/
 *NullSec Project © 2025*
 
 </div>
+
+[![Twitter](https://img.shields.io/badge/Twitter-@AnonAntics-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/AnonAntics)
+[![Discord](https://img.shields.io/badge/Discord-killers-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/killers)
