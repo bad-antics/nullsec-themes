@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=NullSec-arctic
+Comment=NullSec Linux Theme - Cybersecurity Dark Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=NullSec-arctic
+MetacityTheme=NullSec-arctic
+IconTheme=NullSec-Icons

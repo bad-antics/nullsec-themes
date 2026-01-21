@@ -1,0 +1,23 @@
+! NullSec Xresources Theme
+
+*.foreground:   #e0e0e0
+*.background:   #0a0a0f
+*.cursorColor:  #00ff41
+
+*.color0:       #0a0a0f
+*.color1:       #ff3333
+*.color2:       #00ff41
+*.color3:       #ffcc00
+*.color4:       #00aaff
+*.color5:       #bd00ff
+*.color6:       #00ffcc
+*.color7:       #e0e0e0
+
+*.color8:       #333333
+*.color9:       #ff6666
+*.color10:      #66ff99
+*.color11:      #ffdd66
+*.color12:      #66ccff
+*.color13:      #dd66ff
+*.color14:      #66ffdd
+*.color15:      #ffffff

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=NullSec-cyber
+Comment=NullSec Linux Theme - Cybersecurity Dark Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=NullSec-cyber
+MetacityTheme=NullSec-cyber
+IconTheme=NullSec-Icons
